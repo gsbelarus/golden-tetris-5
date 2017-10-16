@@ -1,0 +1,15 @@
+{
+  "short_name": "Golden Tetris 5",
+  "name": "Golden Tetris 5",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32х32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

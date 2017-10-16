@@ -1,0 +1,135 @@
+body {
+  background-color: wheat;
+}
+
+.App {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  height: 100vh;
+}
+
+.quote {
+  width: 34%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 28px;
+  padding-right: 24px;
+  padding-top: 8px;
+  color: darkred;
+  line-height: 120%;
+}
+
+@media (max-width: 1400px) {
+  .quote {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .quote {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .quote {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .quote {
+    font-size: 14px;
+  }
+}
+
+.AppHeader {
+  width: 100%;
+  height: 64px;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+
+.Field {
+  padding: 12px;
+  background: url('./back.png');
+}
+
+.FieldInnerFrame {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding: 12px;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.Buttons {
+  width: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 12px;
+  background: inherit;
+}
+
+.WindowBorder {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  width: 344px;
+  position: absolute;
+  left: 240px;
+  top: 80px;
+  box-shadow: 4px 4px 4px 0px grey;
+}
+
+@media (max-width: 1400px) {
+  .WindowBorder {
+    position: absolute;
+    left: 180px;
+    top: 60px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .WindowBorder {
+    position: absolute;
+    left: 140px;
+    top: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .WindowBorder {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .WindowBorder {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+  }
+}
+
+
+
+
+
+
+
+

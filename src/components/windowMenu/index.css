@@ -1,0 +1,101 @@
+.WindowMenu {
+  cursor: default;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 20px;
+  background-color: lightgrey;
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.WindowMenu a {
+  align-self: stretch;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: black;
+}
+
+.dropdown {
+  align-self: stretch;
+  overflow: hidden;
+}
+
+.WindowMenu a:hover, .dropdown:hover {
+  background-color: lightskyblue;
+}
+
+.dropbtn {
+  padding-left: 8px;
+  padding-right: 8px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  cursor: default;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  position: absolute;
+  background-color: lightgrey;
+  min-width: 160px;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  box-shadow: 2px 2px 6px 0px black;
+  outline: 1px solid grey;
+  z-index: 1;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: black;
+}
+
+.dropdown-content div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.disabled {
+  color: grey;
+}
+
+.dropdown-content div:hover {
+  background-color: lightskyblue;
+}
+
+.dropdown-content div span {
+  padding-left: 20px;
+  padding-right: 8px;
+}
+
+.dropdown-content div span.checked {
+  padding-left: 0px;
+}
+
+.dropdown-content div span.checked:before {
+  content:'\2714';
+  display:inline-block;
+  font-weight: 900;
+  padding-left: 4px;
+  padding-right: 7px;
+}
+
+.menu-separator {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.show {
+  display: flex;
+}
+

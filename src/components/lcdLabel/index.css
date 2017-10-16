@@ -1,0 +1,76 @@
+.lcd-outer-border {
+  overflow: hidden;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 12px 11px 12px 12px;
+}
+
+.lcd-outer-border.hidden {
+  opacity: 0;
+}
+
+.lcd-outer-border.paused {
+  opacity: 0.4;
+}
+
+.lcd-border {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  max-height: 25px;
+  align-content: left;
+}
+
+.lcd-digit {
+  display: inline-block;
+  width: 13px;
+  height: 23px;
+  background: url('./digits.png');
+}
+
+.lcd-digit-0 {
+  background-position: 0 calc(-11 * 23px)
+}
+
+.lcd-digit-1 {
+  background-position: 0 calc(-10 * 23px)
+}
+
+.lcd-digit-2 {
+  background-position: 0 calc(-9 * 23px)
+}
+
+.lcd-digit-3 {
+  background-position: 0 calc(-8 * 23px)
+}
+
+.lcd-digit-4 {
+  background-position: 0 calc(-7 * 23px)
+}
+
+.lcd-digit-5 {
+  background-position: 0 calc(-6 * 23px)
+}
+
+.lcd-digit-6 {
+  background-position: 0 calc(-5 * 23px)
+}
+
+.lcd-digit-7 {
+  background-position: 0 calc(-4 * 23px)
+}
+
+.lcd-digit-8 {
+  background-position: 0 calc(-3 * 23px)
+}
+
+.lcd-digit-9 {
+  background-position: 0 calc(-2 * 23px)
+}
+
+.lcd-digit- {
+  background-position: 0 calc(-1 * 23px)
+}

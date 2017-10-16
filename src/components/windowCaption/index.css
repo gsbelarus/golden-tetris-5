@@ -1,0 +1,27 @@
+.WindowCaption {
+  cursor: default;
+  height: 20px;
+  background: linear-gradient(to right, darkblue, lightblue);
+  border-bottom: 1px solid black;
+  vertical-align: top;
+  text-align: left;
+  user-select: none;
+}
+
+.WindowIcon {
+  display: inline-block;
+  width: 24px;
+  height: 18px;
+  background: url('./tetris-icon.png');
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 4px 1px;
+}
+
+.CaptionText {
+  position: relative;
+  top: -4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}

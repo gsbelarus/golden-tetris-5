@@ -1,0 +1,49 @@
+span.cell {
+  display: table-cell;
+  width: 16px;
+  height: 16px;
+  background: url('./tetris.png');
+}
+
+div.row {
+  display: table-row;
+}
+
+div.well-border {
+  padding: 12px;
+  display: inline-block;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background: inherit;
+}
+
+div.well-border.paused {
+  opacity: 0.4;
+}
+
+div.well {
+  display: table;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  background: inherit;
+}
+
+.fire {
+  display: table-cell;
+  width: 16px;
+  height: 16px;
+  background: url('./fire.png') left center;
+  animation: play .4s steps(3) infinite;
+}
+
+@keyframes play {
+    100% { background-position: -48px; }
+}
+
+div.well-border.hidden {
+  opacity: 0;
+}
