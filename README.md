@@ -1,8 +1,10 @@
+![Golden Tetris icon](http://gsbelarus.com/gs/tetris/images/tetris-icon.png)
+
 Remake of **Golden Tetris for Windows** game done with React/Redux.
 
 Install or [play online](http://gsbelarus.com/gs/tetris).
 
-# Installation
+## Installation
 
 Clone the repository, change dir and run:
 
