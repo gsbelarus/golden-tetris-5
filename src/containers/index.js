@@ -275,27 +275,27 @@ class App extends React.Component {
             <KeyHandler keyEventName={KEYDOWN} keyCode={39} onKeyHandle={this.processKeyEvent} />
             <KeyHandler keyEventName={KEYDOWN} keyCode={40} onKeyHandle={this.processKeyEvent} />
 
-            <KeyHandler keyEventName={KEYPRESS} keyValue="F2" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.newGame) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="Escape" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.abortGame) } />
-            <KeyHandler keyEventName={KEYPRESS} keyCode={19} onKeyHandle={ (e) => this.execKeyAction(e, this.actions.pauseGame) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="F9" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.topScores) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="F2" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.newGame) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="Escape" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.abortGame) } />
+            <KeyHandler keyEventName={KEYDOWN} keyCode={19} onKeyHandle={ (e) => this.execKeyAction(e, this.actions.pauseGame) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="F9" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.topScores) } />
 
-            <KeyHandler keyEventName={KEYPRESS} keyValue="F3" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.nextPiece) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="F4" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.showPoints) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="F5" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.showLines) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="F6" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.showFigures) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="F7" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.showLevel) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="F3" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.nextPiece) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="F4" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.showPoints) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="F5" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.showLines) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="F6" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.showFigures) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="F7" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.showLevel) } />
 
-            <KeyHandler keyEventName={KEYPRESS} keyValue="0" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel0) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="1" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel1) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="2" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel2) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="3" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel3) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="4" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel4) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="5" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel5) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="6" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel6) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="7" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel7) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="8" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel8) } />
-            <KeyHandler keyEventName={KEYPRESS} keyValue="9" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel9) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="0" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel0) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="1" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel1) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="2" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel2) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="3" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel3) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="4" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel4) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="5" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel5) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="6" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel6) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="7" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel7) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="8" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel8) } />
+            <KeyHandler keyEventName={KEYDOWN} keyValue="9" onKeyHandle={ (e) => this.execKeyAction(e, this.actions.setLevel9) } />
 
             <WindowCaption caption="Golden Tetris" />
             <WindowMenu
