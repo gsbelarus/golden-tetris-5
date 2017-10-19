@@ -7,12 +7,12 @@ import LCDLabel from './../components/lcdLabel'
 import WindowCaption from './../components/windowCaption'
 import WindowMenu from './../components/windowMenu'
 import store from './../store'
-import { gameStageEnum, levels } from './../unit/const.js'
+import { gameStageEnum, levels, isMobile } from './../unit/const.js'
 import { pauseGame, resumeGame, startGame, stopGame,
   nextPiece, showLevel, showPoints, showLines, showFigures,
   setLevel, closeAskName, showTS, closeTS } from './../actions'
 import gameEngine from './../unit/engine.js'
-import KeyHandler, { KEYDOWN, KEYPRESS } from 'react-key-handler'
+import KeyHandler, { KEYDOWN } from 'react-key-handler'
 import TopScoresBox from './../components/topScoresBox'
 import InputBox from './../components/inputBox'
 import Draggable from 'react-draggable'
@@ -238,6 +238,19 @@ class App extends React.Component {
   }
 
   render() {
+
+    if (isMobile()) {
+      return (
+        <div className="NoMobileMessage">
+          Handheld mobile devices are not supported.
+          <p/>
+          Desktop mode only.
+          <p/>
+          Sorry.
+        </div>
+      )
+    }
+
     return (
       <div className="App">
         <div className="quote">
